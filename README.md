@@ -10,6 +10,5 @@ The Server-tools include the following tools:
 The tool provides a GUI using the tkinter library. The server information can be configured directly to the 
 config.conf file or using the configuration tab.
 
-#Installation
 
 
