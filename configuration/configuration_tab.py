@@ -135,7 +135,7 @@ class ConfigurationTab(Frame):
 
             self.delete_button = Button(self.node_group, text="Delete node", command=functools.partial(self.deleteEntry,position) )
             self.delete_button.pack(side="left")
-            self.entries.append([self.entry_name,self.entry_username,self.entry_password,self.entry_port,self.entry_tomcat_path,self.delete_button,self.node_group])
+            self.entries.append([self.entry_name,self.entry_username,self.entry_password,self.entry_port,self.delete_button,self.node_group])
 
 
 
