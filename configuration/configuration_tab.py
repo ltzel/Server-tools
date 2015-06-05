@@ -2,7 +2,7 @@ from tkinter import *
 import functools
 import logging
 
-import configuration
+from configuration import configuration
 logging.basicConfig(level=logging.ERROR)
 
 

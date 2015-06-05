@@ -1,9 +1,9 @@
 from tkinter import *
 from tkinter import ttk
 
-import configuration_tab
-import disk_checker_tab
-import server_check_tab
+from configuration import configuration_tab
+from disk_checker import disk_checker_tab
+from server_checker import server_check_tab
 
 class Core(object):
     """"""

@@ -1,7 +1,7 @@
 from tkinter import *
 import logging
-import configuration
-import remote
+from configuration import configuration
+from disk_checker import disk_checker
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -56,7 +56,7 @@ class DiskCheckerTab(Frame):
         response=''
         for server in configuration.nodes:
             node=server[1].split(',')
-            response_value=remote.connectNode(i)
+            response_value=disk_checker.connectNode(i)
             response=node[0]+":"+node[3]+"="+response_value
             i=i+1
             self.text1.tag_config("fail", foreground="red")
@@ -78,7 +78,7 @@ class DiskCheckerTab(Frame):
         node=server[1].split(',')
 
         #value = widget.get(selection[0])
-        response_value = remote.connectNode(value)
+        response_value = disk_checker.connectNode(value)
         response= node[0]+":"+node[3]+response_value
 
         self.text1.tag_config("fail", foreground="red")

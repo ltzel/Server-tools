@@ -1,7 +1,7 @@
 import paramiko
 import logging
 
-import configuration
+from configuration import configuration
 import re
 
 

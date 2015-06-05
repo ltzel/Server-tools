@@ -1,9 +1,8 @@
 from tkinter import *
 import logging
-import os
 
-import configuration
-import server_checker
+from configuration import configuration
+from server_checker import server_checker
 
 
 

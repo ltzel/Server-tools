@@ -53,3 +53,5 @@ __pycache__/configuration_tab.cpython-34.pyc
 __pycache__/remote.cpython-34.pyc
 __pycache__/server_check_tab.cpython-34.pyc
 __pycache__/server_checker.cpython-34.pyc
+disk_checker/__pycache__/__init__.cpython-34.pyc
+*.pyc
